@@ -1,0 +1,263 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    position: absolute;
+}
+
+html{
+    font-family: 'Lato',sans-serif;
+    font-size: 20px;
+    color: #5a5a5a;
+    background-color: #ffffff;
+    text-rendering: optimizeLegibility;
+}
+
+/* -------------------------------------------------- */
+
+header{
+    background-color: #fab8c7;
+    width: 414px;
+    height: 736px;
+}
+
+/* ---------------------------------------------------
+----------------------Hint----------------------------
+------------------------------------------------------ */
+ .touch{
+     border: 2px solid rgba(240,63,104,0.3);
+     border-radius: 50%;
+     width: 0px;
+     height: 0px;
+     top:538px;
+     left: 210px;
+     
+     animation-name: touch;
+     animation-duration: 3s;
+     animation-iteration-count: infinite;
+ }
+
+ 
+
+@keyframes touch {
+    0%{width: 0px;
+    height: 0px;
+    top:538px;
+    left: 210px;}
+    100%{width: 80px;
+    height: 80px;
+    top:500px;
+    left: 170px;}
+}
+
+@keyframes tap {
+    0%{color:rgba(255,255,255,0.1);}
+    100%{color:rgba(255,255,255,1);}
+}
+.round_1{
+    opacity: 1;
+}
+
+.round_1 a{
+    color: rgba(255,255,255,0.1);
+    top:520px;
+    font-size: 30px;
+    left: 190px;
+    animation-name: tap;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+}
+
+
+
+ .circle{
+    width: 80px;
+    height: 80px;
+    top:500px;
+    left: 170px;
+    border: 2px solid rgba(240,63,104,0.3);
+    border-radius: 50%;
+ }
+
+
+.round_2{
+    opacity: 0;
+}
+
+.heart{
+    width: 60px;
+}
+
+.heart_1{
+    opacity: 1;
+    top: 100px;
+    left: 20px;
+}
+
+.heart_2{
+    opacity: 1;
+    top: 100px;
+    left:340px;
+}
+
+.heart_3{
+    opacity: 1;
+    top:500px;
+    left: 20px;
+}
+
+.heart_4{
+    opacity: 1;
+    top: 500px;
+    left: 340px;
+}
+
+.heart_5{
+    opacity: 0;
+    width: 100px;
+    top: 500px;
+    left: 310px;
+}
+
+.heart_6{
+    opacity: 0;
+    width: 100px;
+    top: 80px;
+    left: 312px;
+}
+
+li{
+    display: inline-block;
+}
+
+.heart_f{
+    opacity: 0;
+    color: #FF8B8B;
+    font-size: 80px;
+    top:100px;
+    left: 10px;
+    animation-name: none;
+    animation-duration: 10s;
+    animation-iteration-count: 1;
+    font-size: 100px;top:300px;left: 160px;
+}
+
+.line_1,.line_3{
+    background-color: #f03f68;
+    width: 200px;
+    height: 3px;
+    
+}
+
+.line_1{
+    top: 520px;
+    left: 110px;
+}
+
+.dot{
+    width: 10px;
+    height: 10px;
+    background-color: #f03f68;
+    border-radius: 50%;
+}
+
+.line_1 .dot_1{
+    left: -9px;
+    top: -3px;
+}
+
+.line_1 .dot_2{
+    left: 200px;
+    top: -3px;
+}
+
+.line_2{
+    background-color: #f03f68;
+    width: 3px;
+    height: 300px;
+    left: 365px;
+    top:170px;
+}
+
+.line_2 .dot_1{
+    left: -3px;
+    top: -3px;
+}
+
+.line_2 .dot_2{
+    left: -3px;
+    top: 300px;
+}
+
+.line_3{
+    left: 110px;
+    top: 130px;
+}
+
+.line_3 .dot_1{
+    left: -9px;
+    top: -3px;
+}
+
+.line_3 .dot_2{
+    left: 200px;
+    top: -3px;
+}
+
+.hand{
+    font-size: 50px;
+    color: rgba(255,255,255,0.5);
+    top:160px;
+    left: 290px;
+    animation-name: right_hand;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes right_hand {
+    0%{top:430px;left: 100px;}
+    100%{top:430px;left: 290px;}
+}
+
+@keyframes up_hand {
+    0%{top:430px;left: 290px;}
+    100%{top:160px;left: 290px;}
+}
+
+@keyframes left_hand {
+    0%{top:160px;left: 290px;}
+    100%{top:160px;left: 100px;}
+}
+
+@keyframes heart_f {
+    0%{font-size: 80px;top:100px;left: 10px;}
+    100%{font-size: 100px;top:300px;left: 160px;}
+}
+
+.heart_small_1{
+    color: #FF8B8B;
+    top:3px;
+    left: 55px;
+}
+
+.heart_small_2{
+    color: #FF8B8B;
+    top:3px;
+    left: 85px;
+}
+
+.lab{
+    width: 100px;
+    color: #ffffff;
+    top:550px;
+    left: 170px;
+    opacity: 0;
+}
+
+.press{
+    width: 100px;
+    color: #ffffff;
+    top: 50px;
+    left: 170px;
+    opacity: 0;
+}
